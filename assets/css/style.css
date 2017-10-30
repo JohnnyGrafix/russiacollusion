@@ -1,0 +1,55 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.mainpage {
+	position: relative;
+	border: 1px solid red;
+}
+#manafort { 
+    position: absolute;
+	top: 45%;
+	left: 2%;
+	}
+#trumpJr {
+	position: absolute;
+	top: 14%;
+	left: 2%;
+}
+#kushner {
+	position: absolute;
+	top: 14%;
+	left: 35%;
+}
+#sessions {
+	position: absolute;
+	top: 21%;
+	left: 76%;
+}
+#flynn {
+	position: absolute;
+	top: 52%;
+	left: 82%;
+}
+#vesel {
+	position: absolute;
+	top: 82%;
+	left: 20%;
+}
+#gorkov {
+	position: absolute;
+	top: 76%;
+	left: 44%;
+}
+#kislyak {
+	position: absolute;
+	top: 76%;
+	left: 64%;
+}		
+.names h3 {
+	font-size: 0.75rem;
+}
+.manafortpart {
+	max-width: 500px;
+}
