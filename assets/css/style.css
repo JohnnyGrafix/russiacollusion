@@ -2,54 +2,158 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-
 .mainpage {
 	position: relative;
 	border: 1px solid red;
+	margin-bottom: 200px;
 }
+
 #manafort { 
     position: absolute;
-	top: 45%;
-	left: 2%;
+	width: 25%;
+	top: 6%;
+	left: 20%;
 	}
+#paul {
+	position: absolute;
+	top: 5%;
+	left: 7%;
+	color: #005a81;
+}
+#don {
+	position: absolute;
+	width: 25%;
+	top: 25%;
+	left: 7%;
+}
 #trumpJr {
 	position: absolute;
-	top: 14%;
+	top: 22%;
 	left: 2%;
+	color: #005a81;
+}
+#jared {
+	position: absolute;
+	width: 25%;
+	top: 47%;
+	left: 7%;
 }
 #kushner {
 	position: absolute;
-	top: 14%;
-	left: 35%;
+	top: 62%;
+	left: 2%;
+	color: #005a81;
+}
+#jeff {
+	position: absolute;
+	width: 25%;
+	top: 68%;
+	left: 7%;
 }
 #sessions {
 	position: absolute;
-	top: 21%;
-	left: 76%;
+	top: 82%;
+	left: 2%;
+	color: #005a81;
+}
+#mike {
+	position: absolute;
+	width: 25%;
+	top: 78%;
+	left: 46%;
 }
 #flynn {
 	position: absolute;
-	top: 52%;
-	left: 82%;
+	top: 93%;
+	left: 51%;
+    color: #005a81;
 }
+#nat {
+	position: absolute;
+	width: 25%;
+	top: 32%;
+	left: 64%;
+}	
 #vesel {
 	position: absolute;
-	top: 82%;
-	left: 20%;
+	top: 47%;
+	left: 68%;
+	color: #a0262a;
+}
+#serg {
+	position: absolute;
+	width: 25%;
+	top: 70%;
+    left: 70%;	
 }
 #gorkov {
 	position: absolute;
-	top: 76%;
-	left: 44%;
+	top: 67%;
+	left: 75%;
+	color: #a0262a;
+}
+#sergey {
+	position: absolute;
+	width: 25%;
+	top: 15%;
+	left: 59%;
 }
 #kislyak {
 	position: absolute;
-	top: 76%;
+	top: 12%;
 	left: 64%;
+	color: #a0262a;
 }		
 .names h3 {
-	font-size: 0.75rem;
+	font-size: 1.25rem;
 }
 .manafortpart {
 	max-width: 500px;
+}
+@media only screen and (max-width: 450px){
+	.names h3 {
+		font-size: 0.6rem;
+	}
+}
+@media only screen and (min-width: 450px) and (max-width: 720px){
+	.names h3 {
+		font-size: 0.75rem;
+	}
+}
+.manafortpart {
+	position: relative;
+	border: 1px solid blue;
+	margin-bottom: 20px;
+}
+
+.trumpText {
+	position: absolute;
+	top: 1%;
+	left: 3%;
+}
+.trumpText2 {
+	position: absolute;
+	left: 55%;
+	top: 35%;
+}
+.trumpText3 {
+	position: absolute;
+	top: 85%;
+	left: 5%;
+}
+.button {
+	position: absolute;
+	left: 35%;
+	top: 99%;
+}
+button {
+	background-color: #a7a9ac;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+	border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
