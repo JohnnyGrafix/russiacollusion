@@ -184,6 +184,21 @@ h3 {
 	top: 75%;
 	left: 75%;
 }
+.manafortText {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+.manafortText2 {
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+.manafortText3 {
+	position: absolute;
+	top: 50%;
+	left: 5%;
+}
 .button {
 	position: absolute;
 	left: 38%;
