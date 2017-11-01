@@ -16,11 +16,17 @@ h4 {
 p {
 	font-size: 2rem;
 }
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 850px){
 	p {
-	font-size: 2rem;
+	font-size: 1rem;
 }
 }
+@media only screen and (max-width: 650px){
+	p {
+	font-size: 0.7rem;
+}
+}
+
 #manafort { 
     position: absolute;
 	width: 25%;
@@ -29,7 +35,7 @@ p {
 	}
 #paul {
 	position: absolute;
-	top: 5%;
+	top: 2%;
 	left: 7%;
 	color: #005a81;
 }
@@ -41,7 +47,7 @@ p {
 }
 #trumpJr {
 	position: absolute;
-	top: 21%;
+	top: 19.5%;
 	left: 2%;
 	color: #005a81;
 }
@@ -101,7 +107,7 @@ p {
 }
 #gorkov {
 	position: absolute;
-	top: 67%;
+	top: 64%;
 	left: 75%;
 	color: #a0262a;
 }
@@ -113,7 +119,7 @@ p {
 }
 #kislyak {
 	position: absolute;
-	top: 11%;
+	top: 8%;
 	left: 64%;
 	color: #a0262a;
 }		
@@ -136,7 +142,7 @@ p {
 .manafortpart {
 	position: relative;
 	border: 1px solid blue;
-	margin-bottom: 20px;
+	margin-bottom: 100px;
 }
 
 .trumpText {
@@ -147,11 +153,11 @@ p {
 .trumpText2 {
 	position: absolute;
 	left: 55%;
-	top: 35%;
+	top: 30%;
 }
 .trumpText3 {
 	position: absolute;
-	top: 45%;
+	top: 40%;
 	left: 5%;
 }
 .button {
