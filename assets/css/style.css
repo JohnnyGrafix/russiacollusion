@@ -8,22 +8,31 @@ body {
 	margin-bottom: 200px;
 }
 h1 {
-	font-size: 5rem;
+	font-size: 3rem;
 }
 h4 {
-	font-size: 2rem;
+	font-size: 1rem;
+	font-weight: normal;
+}
+h3 {
+	font-size: 1.5rem;
 }
 p {
-	font-size: 2rem;
-}
-@media only screen and (max-width: 850px){
-	p {
 	font-size: 1rem;
 }
-}
+
 @media only screen and (max-width: 650px){
 	p {
 	font-size: 0.7rem;
+}
+h1 {
+	font-size: 2rem;
+}
+h4 {
+	font-size: 0.7rem;
+}
+h3 {
+	font-size: 1rem;
 }
 }
 
@@ -123,47 +132,61 @@ p {
 	left: 64%;
 	color: #a0262a;
 }		
-.names h3 {
-	font-size: 2rem;
-}
-.manafortpart {
-	
-}
-@media only screen and (max-width: 450px){
-	.names h3 {
-		font-size: 0.6rem;
-	}
-}
-@media only screen and (min-width: 450px) and (max-width: 720px){
-	.names h3 {
-		font-size: 0.75rem;
-	}
-}
 .manafortpart {
 	position: relative;
 	border: 1px solid blue;
-	padding-top: 200px;
+	padding-top: 100px;
 	padding-bottom: 200px;
 }
 
 .trumpText {
 	position: absolute;
-	top: 1%;
+	top: 5%;
 	left: 5%;
 }
 .trumpText2 {
 	position: absolute;
+	top: 35%;
 	left: 55%;
-	top: 30%;
-}
+	}
 .trumpText3 {
 	position: absolute;
-	top: 40%;
+	top: 45%;
 	left: 5%;
+}
+.kushnerText {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+.kushnerText2 {
+	position: absolute;
+	top: 15%;
+	left: 5%;
+}
+.kushnerText3 {
+	position: absolute;
+	top: 25%;
+	left: 5%;
+}
+.kushnerText4 {
+	position: absolute;
+	top: 75%;
+	left: 5%;
+}
+.kushnerText5 {
+	position: absolute;
+	top: 76%;
+	left: 40%;
+}
+.kushnerText6 {
+	position: absolute;
+	top: 75%;
+	left: 75%;
 }
 .button {
 	position: absolute;
-	left: 42%;
+	left: 38%;
 	top: 90%;
 }
 button {
