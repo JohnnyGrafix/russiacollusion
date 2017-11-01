@@ -4,7 +4,6 @@ body {
 
 .mainpage {
 	position: relative;
-	border: 1px solid red;
 	margin-bottom: 200px;
 }
 h1 {
@@ -134,7 +133,6 @@ h3 {
 }		
 .manafortpart {
 	position: relative;
-	border: 1px solid blue;
 	padding-top: 100px;
 	padding-bottom: 200px;
 }
