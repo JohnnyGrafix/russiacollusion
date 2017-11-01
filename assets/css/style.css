@@ -142,7 +142,8 @@ p {
 .manafortpart {
 	position: relative;
 	border: 1px solid blue;
-	margin-bottom: 100px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .trumpText {
