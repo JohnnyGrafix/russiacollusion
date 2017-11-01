@@ -7,7 +7,20 @@ body {
 	border: 1px solid red;
 	margin-bottom: 200px;
 }
-
+h1 {
+	font-size: 5rem;
+}
+h4 {
+	font-size: 2rem;
+}
+p {
+	font-size: 1.5rem;
+}
+@media only screen and (max-width: 900px){
+	p {
+	font-size: 1rem;
+}
+}
 #manafort { 
     position: absolute;
 	width: 25%;
@@ -28,7 +41,7 @@ body {
 }
 #trumpJr {
 	position: absolute;
-	top: 22%;
+	top: 21%;
 	left: 2%;
 	color: #005a81;
 }
@@ -100,12 +113,12 @@ body {
 }
 #kislyak {
 	position: absolute;
-	top: 12%;
+	top: 11%;
 	left: 64%;
 	color: #a0262a;
 }		
 .names h3 {
-	font-size: 1.25rem;
+	font-size: 2rem;
 }
 .manafortpart {
 	
@@ -129,7 +142,7 @@ body {
 .trumpText {
 	position: absolute;
 	top: 1%;
-	left: 3%;
+	left: 5%;
 }
 .trumpText2 {
 	position: absolute;
@@ -138,19 +151,20 @@ body {
 }
 .trumpText3 {
 	position: absolute;
-	top: 85%;
+	top: 45%;
 	left: 5%;
 }
 .button {
 	position: absolute;
-	left: 35%;
-	top: 99%;
+	left: 42%;
+	top: 90%;
 }
 button {
 	background-color: #a7a9ac;
     border: none;
     color: white;
-    padding: 15px 32px;
+	width: 200px;
+	height: 50px;
     text-align: center;
 	border-radius: 10px;
     text-decoration: none;
