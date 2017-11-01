@@ -23,13 +23,13 @@ p {
 
 @media only screen and (max-width: 650px){
 	p {
-	font-size: 0.7rem;
+	font-size: 1rem;
 }
 h1 {
 	font-size: 2rem;
 }
 h4 {
-	font-size: 0.7rem;
+	font-size: 1rem;
 }
 h3 {
 	font-size: 1rem;
@@ -146,13 +146,13 @@ h3 {
 }
 .trumpText2 {
 	position: absolute;
-	top: 35%;
-	left: 55%;
+	top: 30%;
+	left: 5%;
 	}
 .trumpText3 {
 	position: absolute;
-	top: 45%;
-	left: 5%;
+	top: 35%;
+	left: 55%;
 }
 .kushnerText {
 	position: absolute;
@@ -162,11 +162,11 @@ h3 {
 .kushnerText2 {
 	position: absolute;
 	top: 15%;
-	left: 5%;
+	left: 64%;
 }
 .kushnerText3 {
 	position: absolute;
-	top: 25%;
+	top: 35%;
 	left: 5%;
 }
 .kushnerText4 {
@@ -191,18 +191,63 @@ h3 {
 }
 .manafortText2 {
 	position: absolute;
-	top: 20%;
-	left: 5%;
+	top: 30%;
+	left: 53%;
 }
 .manafortText3 {
 	position: absolute;
 	top: 50%;
 	left: 5%;
 }
-.button {
+.sessionsText {
 	position: absolute;
-	left: 38%;
-	top: 90%;
+	top: 5%;
+	left: 5%;
+}
+.sessionsText2 {
+	position: absolute;
+	top: 25%;
+	left: 5%;
+}
+.flynnText {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+.kislyakText {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+.kislyakText2 {
+	position: absolute;
+	top: 30%;
+	left: 58%;
+}
+.gorkovText {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+.gorkovText2 {
+	position: absolute;
+	top: 30%;
+	left: 5%;
+}
+.veselText {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+.veselText2 {
+	position: absolute;
+	top: 35%;
+	left: 55%;
+}
+.button {
+	position: fixed;
+	left: 72%;
+	top: 6%;
 }
 button {
 	background-color: #a7a9ac;
