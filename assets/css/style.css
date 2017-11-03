@@ -41,6 +41,9 @@ h3 {
 	top: 6%;
 	left: 20%;
 	}
+#manafort:hover {
+	width: 30%;
+	}
 #paul {
 	position: absolute;
 	top: 2%;
@@ -53,6 +56,9 @@ h3 {
 	top: 25%;
 	left: 7%;
 }
+#don:hover {
+	width: 30%;
+	}
 #trumpJr {
 	position: absolute;
 	top: 19.5%;
@@ -65,6 +71,9 @@ h3 {
 	top: 47%;
 	left: 7%;
 }
+#jared:hover {
+	width: 30%;
+	}
 #kushner {
 	position: absolute;
 	top: 62%;
@@ -77,6 +86,9 @@ h3 {
 	top: 68%;
 	left: 7%;
 }
+#jeff:hover {
+	width: 30%;
+	}
 #sessions {
 	position: absolute;
 	top: 82%;
@@ -89,6 +101,9 @@ h3 {
 	top: 78%;
 	left: 46%;
 }
+#mike:hover {
+	width: 30%;
+	}
 #flynn {
 	position: absolute;
 	top: 93%;
@@ -100,7 +115,10 @@ h3 {
 	width: 25%;
 	top: 32%;
 	left: 64%;
-}	
+}
+#nat:hover {
+	width: 30%;
+	}	
 #vesel {
 	position: absolute;
 	top: 47%;
@@ -113,6 +131,9 @@ h3 {
 	top: 70%;
     left: 70%;	
 }
+#serg:hover {
+	width: 30%;
+	}
 #gorkov {
 	position: absolute;
 	top: 64%;
@@ -125,6 +146,9 @@ h3 {
 	top: 15%;
 	left: 59%;
 }
+#sergey:hover {
+	width: 30%;
+	}
 #kislyak {
 	position: absolute;
 	top: 8%;
@@ -151,6 +175,15 @@ h3 {
 	position: absolute;
 	top: 35%;
 	left: 55%;
+}
+#natLink {
+	position: absolute;
+	width: 28%;
+	top: 59%;
+	left: 34%;
+}
+#natLink:hover {
+	width: 32%
 }
 .kushnerText {
 	position: absolute;
@@ -182,6 +215,33 @@ h3 {
 	top: 77%;
 	left: 75%;
 }
+#natLink2 {
+	position: absolute;
+	width: 28%;
+	top: 53.5%;
+	left: 4.5%;
+}
+#natLink2:hover {
+	width: 32%;
+}
+#kislyakLink {
+	position: absolute;
+	width: 28%;
+	top: 53.5%;
+	left: 35%;
+	}
+#kislyakLink:hover {
+	width: 32%;
+}
+#gorkovLink {
+	position: absolute;
+	width: 28%;
+	top: 53.5%;
+	left: 68%;
+}
+#gorkovLink:hover {
+	width: 32%;
+}	
 .manafortText {
 	position: absolute;
 	top: 5%;
@@ -197,6 +257,16 @@ h3 {
 	top: 50%;
 	left: 5%;
 }
+#natLink3 {
+	position: absolute;
+	width: 28%;
+	top: 59%;
+	left: 33%;
+}
+#natLink3:hover {
+	width: 32%;
+}
+	
 .sessionsText {
 	position: absolute;
 	top: 5%;
@@ -207,10 +277,28 @@ h3 {
 	top: 25%;
 	left: 5%;
 }
+#kislyakLink2 {
+	position: absolute;
+	width: 28%;
+	top: 56.5%;
+	left: 36%;
+}
+#kislyakLink2:hover {
+	width: 32%;
+}
 .flynnText {
 	position: absolute;
 	top: 5%;
 	left: 5%;
+}
+#kislyakLink3 {
+	position: absolute;
+	width: 28%;
+	top: 56.5%;
+	left: 36%;
+}
+#kislyakLink3:hover {
+	width: 32%;
 }
 .kislyakText {
 	position: absolute;
@@ -222,6 +310,33 @@ h3 {
 	top: 20%;
 	left: 5%;
 }
+#sessionsLink {
+	position: absolute;
+	width: 28%;
+	top: 55%;
+	left: 4.5%;
+}
+#sessionsLink:hover {
+	width: 32%;
+}
+#kushnerLink {
+	position: absolute;
+	width: 28%;
+	top: 55%;
+	left: 35%;
+	}
+#kushnerLink:hover {
+	width: 32%;
+}
+#flynnLink {
+	position: absolute;
+	width: 28%;
+	top: 55%;
+	left: 68%;
+}
+#flynnLink:hover {
+	width: 32%;
+}	
 .gorkovText {
 	position: absolute;
 	top: 5%;
