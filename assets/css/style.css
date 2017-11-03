@@ -20,7 +20,7 @@ p {
 	font-size: 2rem;
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 900px){
 	p {
 	font-size: 1rem;
 }
@@ -34,12 +34,15 @@ h3 {
 	font-size: 1rem;
 }
 }
-
+.heads {
+	transition: width 0.5s ease;
+}
 #manafort { 
     position: absolute;
 	width: 25%;
 	top: 6%;
 	left: 20%;
+	transition: width 0.5s ease;
 	}
 #manafort:hover {
 	width: 30%;
@@ -55,6 +58,7 @@ h3 {
 	width: 25%;
 	top: 25%;
 	left: 7%;
+	
 }
 #don:hover {
 	width: 30%;
@@ -157,10 +161,19 @@ h3 {
 }		
 .manafortpart {
 	position: relative;
+	border: 1px solid yellow;
+	height: 550px;
 	padding-top: 100px;
 	padding-bottom: 200px;
 }
-
+.line {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.ease {
+	transition: width 0.5s ease;
+}
 .trumpText {
 	position: absolute;
 	top: 5%;
@@ -168,22 +181,40 @@ h3 {
 }
 .trumpText2 {
 	position: absolute;
-	top: 30%;
+	top: 45%;
 	left: 5%;
 	}
 .trumpText3 {
 	position: absolute;
-	top: 35%;
-	left: 55%;
+	top: 45%;
+	left: 60%;
 }
 #natLink {
 	position: absolute;
 	width: 28%;
-	top: 59%;
-	left: 34%;
+	top: 68%;
+	left: 36%;
 }
 #natLink:hover {
 	width: 32%
+}
+#trumpHome {
+	position: absolute;
+	width: 28%;
+	top: 15%;
+	left: 36%;
+}
+#trumpHome:hover {
+	width: 32%;
+}
+#kushnerHome {
+	position: absolute;
+	width: 28%;
+	top: 15%;
+	left: 36%;
+}
+#kushnerHome:hover {
+	width: 32%;
 }
 .kushnerText {
 	position: absolute;
@@ -202,17 +233,17 @@ h3 {
 }
 .kushnerText4 {
 	position: absolute;
-	top: 77%;
+	top: 67%;
 	left: 5%;
 }
 .kushnerText5 {
 	position: absolute;
-	top: 78%;
+	top: 67%;
 	left: 40%;
 }
 .kushnerText6 {
 	position: absolute;
-	top: 77%;
+	top: 67%;
 	left: 75%;
 }
 #natLink2 {
@@ -241,6 +272,15 @@ h3 {
 }
 #gorkovLink:hover {
 	width: 32%;
+}
+#manafortHome {
+	position: absolute;
+	width: 28%;
+	top: 15%;
+	left: 36%;
+}
+#manafortHome:hover {
+	width: 32%;
 }	
 .manafortText {
 	position: absolute;
@@ -266,7 +306,15 @@ h3 {
 #natLink3:hover {
 	width: 32%;
 }
-	
+#sessionsHome {
+	position: absolute;
+	width: 28%;
+	top: 15%;
+	left: 36%;
+}
+#sessionsHome:hover {
+	width: 32%;
+}	
 .sessionsText {
 	position: absolute;
 	top: 5%;
@@ -286,6 +334,25 @@ h3 {
 #kislyakLink2:hover {
 	width: 32%;
 }
+#flynnHome {
+	position: absolute;
+	width: 28%;
+	top: 15%;
+	left: 36%;
+}
+#flynnHome:hover {
+	width: 32%;
+}
+#kislyakHome {
+	position: absolute;
+	width: 28%;
+	top: 15%;
+	left: 36%;
+}
+#kislyakHome:hover {
+	width: 32%;
+}
+
 .flynnText {
 	position: absolute;
 	top: 5%;
@@ -336,7 +403,16 @@ h3 {
 }
 #flynnLink:hover {
 	width: 32%;
-}	
+}
+#gorkovHome {
+	position: absolute;
+	width: 28%;
+	top: 15%;
+	left: 36%;
+}
+#gorkovHome:hover {
+	width: 32%;
+}
 .gorkovText {
 	position: absolute;
 	top: 5%;
@@ -347,6 +423,24 @@ h3 {
 	top: 30%;
 	left: 5%;
 }
+#kushnerLink2 {
+	position: absolute;
+	width: 28%;
+	top: 59%;
+	left: 35%;
+	}
+#kushnerLink2:hover {
+	width: 32%;
+}
+#natHome {
+	position: absolute;
+	width: 28%;
+	top: 15%;
+	left: 36%;
+}
+#natHome:hover {
+	width: 32%;
+}
 .veselText {
 	position: absolute;
 	top: 5%;
@@ -356,6 +450,33 @@ h3 {
 	position: absolute;
 	top: 25%;
 	left: 65%;
+}
+#manafortLink2 {
+	position: absolute;
+	width: 28%;
+	top: 59%;
+	left: 4.5%;
+}
+#manafortLink2:hover {
+	width: 32%;
+}
+#kushnerLink3 {
+	position: absolute;
+	width: 28%;
+	top: 59%;
+	left: 35%;
+	}
+#kushnerLink3:hover {
+	width: 32%;
+}
+#trumpJrLink {
+	position: absolute;
+	width: 28%;
+	top: 59%;
+	left: 68%;
+}
+#trumpJrLink:hover {
+	width: 32%;
 }
 .button {
 	position: fixed;
