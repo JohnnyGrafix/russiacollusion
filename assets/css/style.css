@@ -223,27 +223,27 @@ h3 {
 }
 .kushnerText2 {
 	position: absolute;
-	top: 15%;
+	top: 10%;
 	left: 64%;
 }
 .kushnerText3 {
 	position: absolute;
-	top: 25%;
+	top: 29%;
 	left: 5%;
 }
 .kushnerText4 {
 	position: absolute;
-	top: 67%;
+	top: 72%;
 	left: 5%;
 }
 .kushnerText5 {
 	position: absolute;
-	top: 67%;
+	top: 72%;
 	left: 40%;
 }
 .kushnerText6 {
 	position: absolute;
-	top: 67%;
+	top: 72%;
 	left: 75%;
 }
 #natLink2 {
@@ -289,7 +289,7 @@ h3 {
 }
 .manafortText2 {
 	position: absolute;
-	top: 30%;
+	top: 35%;
 	left: 53%;
 }
 .manafortText3 {
@@ -322,7 +322,7 @@ h3 {
 }
 .sessionsText2 {
 	position: absolute;
-	top: 25%;
+	top: 31%;
 	left: 5%;
 }
 #kislyakLink2 {
@@ -374,8 +374,8 @@ h3 {
 }
 .kislyakText2 {
 	position: absolute;
-	top: 20%;
-	left: 5%;
+	top: 12%;
+	left: 65%;
 }
 #sessionsLink {
 	position: absolute;
@@ -448,7 +448,7 @@ h3 {
 }
 .veselText2 {
 	position: absolute;
-	top: 25%;
+	top: 17%;
 	left: 65%;
 }
 #manafortLink2 {
