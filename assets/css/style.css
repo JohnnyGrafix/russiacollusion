@@ -4,6 +4,7 @@ body {
 
 .mainpage {
 	position: relative;
+	height: 1200px;
 	margin-bottom: 200px;
 }
 h1 {
@@ -20,6 +21,12 @@ p {
 	font-size: 2rem;
 }
 
+.heads {
+	position: absolute;
+	transition: width 0.5s ease;
+	width: 25%;
+}
+
 @media only screen and (max-width: 900px){
 	p {
 	font-size: 1rem;
@@ -33,13 +40,23 @@ h4 {
 h3 {
 	font-size: 1rem;
 }
-}
 .heads {
-	transition: width 0.5s ease;
+	width: 15%;
+}
+.mainpage {
+	max-height: 800px;
+}
+}
+@media only screen and (min-width: 1200px){
+	.heads {
+		width: 10%;
+	}
+	.mainpage {
+	max-height: 400px;
+}
 }
 #manafort { 
     position: absolute;
-	width: 25%;
 	top: 6%;
 	left: 20%;
 	transition: width 0.5s ease;
@@ -55,7 +72,6 @@ h3 {
 }
 #don {
 	position: absolute;
-	width: 25%;
 	top: 25%;
 	left: 7%;
 	
@@ -71,7 +87,6 @@ h3 {
 }
 #jared {
 	position: absolute;
-	width: 25%;
 	top: 47%;
 	left: 7%;
 }
@@ -86,7 +101,6 @@ h3 {
 }
 #jeff {
 	position: absolute;
-	width: 25%;
 	top: 68%;
 	left: 7%;
 }
@@ -101,7 +115,6 @@ h3 {
 }
 #mike {
 	position: absolute;
-	width: 25%;
 	top: 78%;
 	left: 46%;
 }
@@ -116,7 +129,6 @@ h3 {
 }
 #nat {
 	position: absolute;
-	width: 25%;
 	top: 32%;
 	left: 64%;
 }
@@ -131,7 +143,6 @@ h3 {
 }
 #serg {
 	position: absolute;
-	width: 25%;
 	top: 70%;
     left: 70%;	
 }
@@ -146,7 +157,6 @@ h3 {
 }
 #sergey {
 	position: absolute;
-	width: 25%;
 	top: 15%;
 	left: 59%;
 }
