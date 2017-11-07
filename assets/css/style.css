@@ -6,6 +6,13 @@ body {
 	position: relative;
 	height: 1200px;
 	margin-bottom: 200px;
+	border: 1px solid red;
+}
+.mainlines {
+	position: absolute;
+	border: 1px solid yellow;
+	height: 1200px;
+	width: 100%;
 }
 h1 {
 	font-size: 3rem;
@@ -24,7 +31,7 @@ p {
 .heads {
 	position: absolute;
 	transition: width 0.5s ease;
-	width: 25%;
+	width: 15%;
 }
 
 @media only screen and (max-width: 900px){
@@ -46,12 +53,18 @@ h3 {
 .mainpage {
 	max-height: 800px;
 }
+.mainlines {
+	max-height: 800px;
+}
 }
 @media only screen and (min-width: 1200px){
 	.heads {
 		width: 10%;
 	}
 	.mainpage {
+	max-height: 400px;
+}
+.mainlines {
 	max-height: 400px;
 }
 }
@@ -172,13 +185,15 @@ h3 {
 .manafortpart {
 	position: relative;
 	height: 550px;
-	padding-top: 200px;
+	
 	padding-bottom: 400px;
+	border: 1px solid blue;
 }
 .line {
 	position: absolute;
 	width: 100%;
 	height: 100%;
+	border: 1px solid yellow;
 }
 .ease {
 	transition: width 0.5s ease;
@@ -198,10 +213,11 @@ h3 {
 	top: 45%;
 	left: 60%;
 }
+
 #natLink {
 	position: absolute;
 	width: 28%;
-	top: 68%;
+	top: 70%;
 	left: 36%;
 }
 #natLink:hover {
