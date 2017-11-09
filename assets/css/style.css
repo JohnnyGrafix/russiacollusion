@@ -13,6 +13,9 @@ body {
 	height: 600px;
 	width: 100%;
 }
+a {
+	transition-duration: 0.5s ease;
+}
 h1 {
 	font-size: 3rem;
 }
@@ -148,9 +151,7 @@ p {
 }		
 .manafortpart {
 	position: relative;
-	height: 550px;
-	
-	padding-bottom: 400px;
+	height: 600px;
 	border: 1px solid blue;
 }
 .line {
@@ -169,12 +170,12 @@ p {
 }
 .trumpText2 {
 	position: absolute;
-	top: 45%;
+	top: 35%;
 	left: 5%;
 	}
 .trumpText3 {
 	position: absolute;
-	top: 45%;
+	top: 35%;
 	left: 60%;
 }
 
@@ -210,15 +211,10 @@ p {
 	top: 5%;
 	left: 5%;
 }
-.kushnerText2 {
-	position: absolute;
-	top: 10%;
-	left: 64%;
-}
 .kushnerText3 {
 	position: absolute;
-	top: 29%;
-	left: 5%;
+	top: 12%;
+	left: 64%;
 }
 .kushnerText4 {
 	position: absolute;
@@ -278,13 +274,13 @@ p {
 }
 .manafortText2 {
 	position: absolute;
-	top: 35%;
-	left: 53%;
+	top: 30%;
+	left: 5%;
 }
 .manafortText3 {
 	position: absolute;
-	top: 50%;
-	left: 5%;
+	top: 40%;
+	left: 54%;
 }
 #natLink3 {
 	position: absolute;
@@ -363,8 +359,8 @@ p {
 }
 .kislyakText2 {
 	position: absolute;
-	top: 12%;
-	left: 65%;
+	top: 75%;
+	left: 5%;
 }
 #sessionsLink {
 	position: absolute;
@@ -437,8 +433,8 @@ p {
 }
 .veselText2 {
 	position: absolute;
-	top: 17%;
-	left: 65%;
+	top: 78%;
+	left: 5%;
 }
 #manafortLink2 {
 	position: absolute;
