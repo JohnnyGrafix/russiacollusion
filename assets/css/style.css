@@ -4,14 +4,13 @@ body {
 
 .mainpage {
 	position: relative;
-	height: 1200px;
-	margin-bottom: 200px;
+	height: 600px;
 	border: 1px solid red;
 }
 .mainlines {
 	position: absolute;
 	border: 1px solid yellow;
-	height: 1200px;
+	height: 600px;
 	width: 100%;
 }
 h1 {
@@ -31,43 +30,9 @@ p {
 .heads {
 	position: absolute;
 	transition: width 0.5s ease;
-	width: 15%;
+	width: 25%;
 }
 
-@media only screen and (max-width: 900px){
-	p {
-	font-size: 1rem;
-}
-h1 {
-	font-size: 2rem;
-}
-h4 {
-	font-size: 1rem;
-}
-h3 {
-	font-size: 1rem;
-}
-.heads {
-	width: 15%;
-}
-.mainpage {
-	max-height: 800px;
-}
-.mainlines {
-	max-height: 800px;
-}
-}
-@media only screen and (min-width: 1200px){
-	.heads {
-		width: 10%;
-	}
-	.mainpage {
-	max-height: 400px;
-}
-.mainlines {
-	max-height: 400px;
-}
-}
 #manafort { 
     position: absolute;
 	top: 6%;
@@ -79,7 +44,7 @@ h3 {
 	}
 #paul {
 	position: absolute;
-	top: 2%;
+	top: 1%;
 	left: 7%;
 	color: #005a81;
 }
@@ -87,7 +52,6 @@ h3 {
 	position: absolute;
 	top: 25%;
 	left: 7%;
-	
 }
 #don:hover {
 	width: 30%;
@@ -100,7 +64,7 @@ h3 {
 }
 #jared {
 	position: absolute;
-	top: 47%;
+	top: 44%;
 	left: 7%;
 }
 #jared:hover {
@@ -108,41 +72,41 @@ h3 {
 	}
 #kushner {
 	position: absolute;
-	top: 62%;
+	top: 59%;
 	left: 2%;
 	color: #005a81;
 }
 #jeff {
 	position: absolute;
-	top: 68%;
-	left: 7%;
+	top: 65%;
+	left: 15%;
 }
 #jeff:hover {
 	width: 30%;
 	}
 #sessions {
 	position: absolute;
-	top: 82%;
-	left: 2%;
+	top: 79%;
+	left: 7%;
 	color: #005a81;
 }
 #mike {
 	position: absolute;
 	top: 78%;
-	left: 46%;
+	left: 40%;
 }
 #mike:hover {
 	width: 30%;
 	}
 #flynn {
 	position: absolute;
-	top: 93%;
-	left: 51%;
+	top: 92%;
+	left: 45%;
     color: #005a81;
 }
 #nat {
 	position: absolute;
-	top: 32%;
+	top: 45%;
 	left: 64%;
 }
 #nat:hover {
@@ -150,7 +114,7 @@ h3 {
 	}	
 #vesel {
 	position: absolute;
-	top: 47%;
+	top: 35%;
 	left: 68%;
 	color: #a0262a;
 }
@@ -165,7 +129,7 @@ h3 {
 #gorkov {
 	position: absolute;
 	top: 64%;
-	left: 75%;
+	left: 64%;
 	color: #a0262a;
 }
 #sergey {
@@ -517,4 +481,29 @@ button {
 	border-radius: 10px;
     font-size: 48px;
 	color: white;
+}
+@media only screen and (max-width: 900px){
+	p {
+	font-size: 1rem;
+}
+h1 {
+	font-size: 2rem;
+}
+h4 {
+	font-size: 1rem;
+}
+h3 {
+	font-size: 1rem;
+}
+}
+@media only screen and (min-width: 1200px){
+	.heads {
+		width: 10%;
+	}
+	.mainpage {
+	max-height: 400px;
+}
+.mainlines {
+	max-height: 400px;
+}
 }
