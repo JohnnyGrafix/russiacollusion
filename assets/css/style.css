@@ -1,10 +1,12 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	max-width: 850px;
 }
 
 .mainpage {
 	position: relative;
 	height: 600px;
+	margin-bottom: 200px;
 }
 .mainlines {
 	position: absolute;
@@ -40,7 +42,7 @@ p {
 #manafort { 
     position: absolute;
 	top: 6%;
-	left: 20%;
+	left: 17%;
 	}
 
 #paul {
@@ -99,13 +101,13 @@ p {
 }
 #nat {
 	position: absolute;
-	top: 45%;
+	top: 47%;
 	left: 64%;
 }
 
 #vesel {
 	position: absolute;
-	top: 35%;
+	top: 37%;
 	left: 68%;
 	color: #a0262a;
 }
@@ -136,6 +138,7 @@ p {
 .manafortpart {
 	position: relative;
 	height: 600px;
+	margin-bottom: 200px;
 }
 .line {
 	position: absolute;
@@ -252,12 +255,12 @@ p {
 .manafortText4 {
 	position: absolute;
 	top: 58%;
-	left: 60%;
+	left: 64%;
 }
 #natLink3 {
 	position: absolute;
 	top: 59%;
-	left: 33%;
+	left: 36%;
 }
 
 #sessionsHome {
@@ -413,6 +416,7 @@ p {
 
 
 @media only screen and (min-width: 500px)  {
+	
 	.heads {
 		width: 15%;
 	}
@@ -431,22 +435,14 @@ p {
 	.mainlines {
 		right: 6%;
 	}
+	
+	.manafortpart p {
+	font-size: 1rem;
 }
-@media only screen and (min-width: 850px) {
-	.heads {
-		width: 10%;
-	}
-	.heads:hover{
-		width: 15%;
-	}
-	.ease {
-		width: 10%;
-	}
-	.ease:hover {
-		width: 15%;
-	}
-	.line {
-		right: 9%;
-		top: 5%;
-	}
+.manafortText4 {
+	position: absolute;
+	top: 58%;
+	left: 54%;
+}
+
 }
