@@ -24,6 +24,9 @@ h3 {
 p {
 	font-size: 1rem;
 }
+.manafortpart p {
+	font-size: 0.8rem;
+}
 
 .heads {
 	position: absolute;
@@ -243,8 +246,13 @@ p {
 }
 .manafortText3 {
 	position: absolute;
-	top: 40%;
+	top: 35%;
 	left: 54%;
+}
+.manafortText4 {
+	position: absolute;
+	top: 58%;
+	left: 60%;
 }
 #natLink3 {
 	position: absolute;
@@ -291,6 +299,22 @@ p {
 	top: 5%;
 	left: 5%;
 }
+.flynnText2 {
+	position: absolute;
+	top: 35%;
+	left: 54%;
+}
+.flynnText3 {
+	position: absolute;
+	top: 48%;
+	left: 5%;
+	color: red;
+}
+.flynnText4 {
+	position: absolute;
+	top: 51%;
+	left: 5%;
+}
 #kislyakLink3 {
 	position: absolute;
 	top: 56.5%;
@@ -304,7 +328,13 @@ p {
 }
 .kislyakText2 {
 	position: absolute;
-	top: 75%;
+	top: 38%;
+	left: 15%;
+	background-color: white;
+}
+.kislyakText3 {
+	position: absolute;
+	top: 73%;
 	left: 5%;
 }
 #sessionsLink {
